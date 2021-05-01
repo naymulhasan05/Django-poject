@@ -3,7 +3,6 @@ from .models import Profile
 
 # Create your views here.
 
-
 def homepage(request):
     profile = Profile.objects.all()
 
